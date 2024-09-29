@@ -1,0 +1,25 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #f8f9fa; /* Color de fondo de la navbar */
+}
+
+.navbar-links {
+  display: flex;
+  gap: 1rem; /* Espacio entre los botones */
+}
+
+.navbar-button {
+  background-color: gray; /* Color de fondo del botón */
+  color: white; /* Color del texto */
+  padding: 0.5rem 1rem; /* Espaciado dentro del botón */
+  border: none; /* Sin borde */
+  border-radius: 4px; /* Bordes redondeados */
+  text-decoration: none; /* Sin subrayado */
+}
+
+.navbar-button:hover {
+  background-color: darkgray; /* Color de fondo al pasar el ratón */
+}
